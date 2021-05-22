@@ -1,0 +1,47 @@
+.contentBodyResp{
+    width: 90%;
+    margin: 5px;
+    max-width: 700px;
+}
+.bodyResp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 2px;
+    border: 1px solid rgb(117, 117, 117);
+    
+    /*Rojo : #ff7f7f     Verde: #7fff94*/
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.resp{
+    width: 100%;
+    display: flex;
+    margin: 3px;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgba(182, 182, 182, 0.534);
+
+    margin: 3px;
+}
+h4{
+    margin-right: 5px;
+    display: flex;
+    height: min-content;
+}
+label{
+    display: flex;
+    align-items: center;
+}
